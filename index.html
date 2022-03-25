@@ -20,10 +20,12 @@
   
  
   <header class="debug">header
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-3 col-sm-3 boot-dbg-s"></div>
-        <div class="col-xs-1 offset-xs-8 col-sm-3 offset-sm-6 boot-dbg-s"></div>
+    <div class="container-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-3 col-sm-3 boot-dbg-s"></div>
+          <div class="col-xs-1 offset-xs-8 col-sm-3 offset-sm-6 boot-dbg-s"></div>
+        </div>
       </div>
     </div>
   </header>
@@ -31,7 +33,17 @@
 
   <!-- Jumbotron  -->
   <div class="jumbotron d-flex debug"> Jumbo
-    <div class="content-jumbo debug"></div>
+
+    <div class="container-jumbo">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 boot-dbg-l"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Senza usare bootstrap  -->
+    <!-- <div class="content-jumbo debug"></div> -->
   </div>
   <!-- /Jumbotron  -->
 
@@ -44,12 +56,12 @@
       <div><h2>Portfolio</h2></div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-6 col-md-4 boot-dbg-l"></div>
-          <div class="col-sm-6 col-md-4 boot-dbg-l"></div>
-          <div class="col-sm-6 col-md-4 boot-dbg-l"></div>
-          <div class="col-sm-6 col-md-4 boot-dbg-l"></div>
-          <div class="col-sm-6 col-md-4 boot-dbg-l"></div>
-          <div class="col-sm-6 col-md-4 boot-dbg-l"></div>
+          <div class="col-sm-6 col-md-4 boot-dbg-m"></div>
+          <div class="col-sm-6 col-md-4 boot-dbg-m"></div>
+          <div class="col-sm-6 col-md-4 boot-dbg-m"></div>
+          <div class="col-sm-6 col-md-4 boot-dbg-m"></div>
+          <div class="col-sm-6 col-md-4 boot-dbg-m"></div>
+          <div class="col-sm-6 col-md-4 boot-dbg-m"></div>
         </div>
       </div>
     </section>
@@ -60,21 +72,35 @@
     <section id="about" class="debug h300">
 
       <div><h2>About</h2></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 boot-dbg-m"></div>
-          <div class="col-sm-6 boot-dbg-m"></div>
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 boot-dbg-m"></div>
+            <div class="col-sm-6 boot-dbg-m"></div>
+          </div>
         </div>
       </div>
+      
     </section>
     <!-- /About  -->
 
 
     <!-- Contact me  -->
-    <section id="contact-me" class="d-flex debug h500">
+    <section id="contact-me" class="debug h500">
       
-      <div><h2>Contact me </h2></div>
-      <div class="content-contact-me debug"></div>
+      <div><h2>Contact me</h2></div>
+      <div class="content d-flex">
+        <div class="container-contact-me">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 boot-dbg-l"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Senza usare bootstrap  -->
+      <!-- <div class="content-contact-me debug"></div> -->
     </section>
     <!-- /Contact me  -->
 
@@ -84,20 +110,34 @@
   <footer>
 
     <!-- Footer top  -->
-    <section class="footer-top debug h300">footer-top
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4 boot-dbg-m"></div>
-          <div class="col-sm-4 boot-dbg-m"></div>
-          <div class="col-sm-4 boot-dbg-m"></div>
+    <section class="debug h300">footer-top
+
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 boot-dbg-m"></div>
+            <div class="col-sm-4 boot-dbg-m"></div>
+            <div class="col-sm-4 boot-dbg-m"></div>
+          </div>
         </div>
       </div>
+      
     </section>
     <!-- /Footer top  -->
 
     <!-- Footer bottom  -->
     <section class="footer-bottom d-flex debug h100">
-      <div class="content-footer-bottom">footer-bottom</div>
+
+      <div class="container-footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 boot-dbg-s">footer bottom</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Senza usare bootstrap  -->
+      <!-- <div class="content-footer-bottom">footer-bottom</div> -->
     </section>
     <!-- /Footer bottom  -->
 
