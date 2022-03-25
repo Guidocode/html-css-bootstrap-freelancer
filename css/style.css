@@ -54,6 +54,14 @@ section h2{
   text-align: center;
 }
 
+#portfolio,
+#about,
+#contact-me{
+  flex-direction: column;
+  justify-content: center;
+}
+
+
 /* Portfolio */
 #portfolio{
   width: 70%;
@@ -82,7 +90,7 @@ section h2{
 
 #contact-me .content{
   /* justify-content: center; */
-  align-items: center;
+  /* align-items: center; */
 }
 
 .container-contact-me{
