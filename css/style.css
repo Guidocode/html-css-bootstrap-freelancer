@@ -1,0 +1,75 @@
+/* 
+  HEADER 
+*/
+header{
+  height: 80px;
+}
+
+
+
+
+
+
+/* 
+  JUMBOTRON 
+*/
+.jumbotron{
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-jumbo{
+  width: 500px;
+  height: 300px;
+}
+
+
+
+
+
+
+/* 
+  MAIN 
+*/
+
+/* Portfolio */
+/* /Portfolio  */
+
+
+/* About  */
+/* /About  */
+
+
+/* Contact me  */
+#contact-me{
+  justify-content: center;
+  align-items: center;
+}
+
+.content-contact-me{
+  width: 500px;
+  height: 300px;
+}
+/* /Contact me  */
+
+
+
+
+
+
+
+/* 
+  FOOTER 
+*/
+
+/* Footer top  */
+/* /Footer top  */
+
+
+/* Footer bottom  */
+.footer-bottom{
+  justify-content: center;
+  align-items: center;
+}
+/* /Footer bottom  */
