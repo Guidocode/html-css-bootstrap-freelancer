@@ -10,11 +10,6 @@ header{
   z-index: 999;
 }
 
-.container-header{
-  width: 70%;
-  margin: 0 auto;
-}
-
 
 
 
@@ -25,10 +20,7 @@ header{
 */
 .jumbotron{
   height: 450px;
-  /* justify-content: center; */
-  align-items: center;
   margin-top: 80px;
-  margin-bottom: 20px;
 }
 
 .container-jumbo{
@@ -50,59 +42,18 @@ header{
 /* 
   MAIN 
 */
-section h2{
-  text-align: center;
-}
-
-#portfolio,
-#about,
-#contact-me{
-  flex-direction: column;
-  justify-content: center;
-}
-
-
 /* Portfolio */
-#portfolio{
-  width: 70%;
-  margin: 0 auto;
-  margin-bottom: 20px;
+.gb-card{
+  height: 250px;
 }
 /* /Portfolio  */
 
 
 /* About  */
-#about{
-  margin-bottom: 20px;
-}
-
-#about .content{
-  width: 60%;
-  margin: 0 auto;
-}
 /* /About  */
 
 
 /* Contact me  */
-#contact-me{
-  margin-bottom: 20px;
-}
-
-#contact-me .content{
-  /* justify-content: center; */
-  /* align-items: center; */
-}
-
-.container-contact-me{
-  width: 600px;
-  margin: 0 auto;
-}
-
-/* Senza usare bootstrap  */
-/* .content-contact-me{
-  width: 500px;
-  height: 300px;
-} */
 /* /Contact me  */
 
 
@@ -115,16 +66,8 @@ section h2{
   FOOTER 
 */
 /* Footer top  */
-.footer-top{
-  width: 65%;
-  margin: 0 auto;
-}
 /* /Footer top  */
 
 
 /* Footer bottom  */
-.footer-bottom{
-  justify-content: center;
-  align-items: center;
-}
 /* /Footer bottom  */

@@ -21,23 +21,24 @@
  
   <header class="debug">header
     <div class="container-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-3 col-sm-3 boot-dbg-s"></div>
-          <div class="col-xs-1 offset-xs-8 col-sm-3 offset-sm-6 boot-dbg-s"></div>
+      <nav class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-10 col-md-6 debug">sx</div>
+          <div class="col-6 text-end d-none d-md-block debug">dx</div>
+          <div class="col-2 text-end d-md-none debug">h</div>
         </div>
-      </div>
+      </nav>
     </div>
   </header>
 
 
   <!-- Jumbotron  -->
-  <div class="jumbotron d-flex debug"> Jumbo
+  <div class="jumbotron mb-5 d-flex align-items-center debug"> Jumbo
 
     <div class="container-jumbo">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 boot-dbg-l"></div>
+          <div class="col-sm-12 debug h300"></div>
         </div>
       </div>
     </div>
@@ -51,54 +52,76 @@
   <main>
 
     <!-- Portfolio  -->
-    <section id="portfolio" class="d-flex debug h500">
+    <section id="portfolio" class="mb-5 debug h500">
 
-      <div><h2>Portfolio</h2></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-4 boot-dbg-m"></div>
-          <div class="col-sm-6 col-md-4 boot-dbg-m"></div>
-          <div class="col-sm-6 col-md-4 boot-dbg-m"></div>
-          <div class="col-sm-6 col-md-4 boot-dbg-m"></div>
-          <div class="col-sm-6 col-md-4 boot-dbg-m"></div>
-          <div class="col-sm-6 col-md-4 boot-dbg-m"></div>
-        </div>
+      <div class="container text-center">
+        <h2>Portfolio</h2>
+        <div>---- stella ----</div>
       </div>
+
+        <!-- Card  -->
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col debug">
+              <div class="gb-card">1</div>
+            </div>
+            <div class="col debug">
+              <div class="gb-card">2</div>
+            </div>
+            <div class="col debug">
+              <div class="gb-card">3</div>
+            </div>
+            <div class="col debug">
+              <div class="gb-card">4</div>
+            </div>
+            <div class="col debug">
+              <div class="gb-card">5</div>
+            </div>
+            <div class="col debug">
+              <div class="gb-card">6</div>
+            </div>
+          </div>
+        </div>
+        <!-- /Card  -->
+
     </section>
     <!-- /Portfolio  -->
 
 
     <!-- About  -->
-    <section id="about" class="d-flex debug h300">
+    <section id="about" class="mb-5 debug h300">
 
-      <div><h2>About</h2></div>
-      <div class="content">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 boot-dbg-m"></div>
-            <div class="col-sm-6 boot-dbg-m"></div>
+      <div class="container text-center">
+        <h2>About</h2>
+        <div>---- stella ----</div>
+      </div>
+
+      <div class="gb-container">
+        <div class="container-fluid">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col debug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugit atque quibusdam, eaque maiores, nisi modi quis saepe odio id veritatis ea amet possimus et dolores doloribus nam in repellendus!</div>
+            <div class="col debug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugit atque quibusdam, eaque maiores, nisi modi quis saepe odio id veritatis ea amet possimus et dolores doloribus nam in repellendus!</div>
           </div>
         </div>
       </div>
 
-      <div class="btn"><button>bottone</button></div>
+
+      <div class="mt-5 text-center"><button>bottone</button></div>
       
     </section>
     <!-- /About  -->
 
 
     <!-- Contact me  -->
-    <section id="contact-me" class="d-flex debug h500">
+    <section id="contact-me" class="mb-5 debug h500">
       
-      <div><h2>Contact me</h2></div>
-      <div class="content d-flex">
-        <div class="container-contact-me">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12 boot-dbg-l"></div>
-            </div>
-          </div>
-        </div>
+      <div class="container text-center">
+        <h2>Contact me</h2>
+        <div>---- stella ----</div>
+      </div>
+
+      <div class="gb-container debug h300">
+        form
       </div>
       
       <!-- Senza usare bootstrap  -->
@@ -112,15 +135,13 @@
   <footer>
 
     <!-- Footer top  -->
-    <section class="debug h300">footer-top
+    <section class="gb-footer-top debug h300">footer-top
 
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-4 boot-dbg-m"></div>
-            <div class="col-sm-4 boot-dbg-m"></div>
-            <div class="col-sm-4 boot-dbg-m"></div>
-          </div>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col debug h100">sx</div>
+          <div class="col debug h100">c</div>
+          <div class="col debug h100">dx</div>
         </div>
       </div>
       
@@ -128,15 +149,9 @@
     <!-- /Footer top  -->
 
     <!-- Footer bottom  -->
-    <section class="footer-bottom d-flex debug h100">
+    <section class="gb-footer-bottom d-flex justify-content-center align-items-center debug h100">
 
-      <div class="container-footer-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 boot-dbg-s">footer bottom</div>
-          </div>
-        </div>
-      </div>
+      copy
 
       <!-- Senza usare bootstrap  -->
       <!-- <div class="content-footer-bottom">footer-bottom</div> -->
