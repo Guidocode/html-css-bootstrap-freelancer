@@ -162,6 +162,28 @@ main h2{
 
 
 /* About  */
+#about{
+  background-color: #1ABC9C;
+  padding: 50px 0;
+}
+
+#about h2{
+  color: white;
+}
+
+#about p{
+  color: white;
+}
+
+#about .gb-btn{
+  background-color: #1ABC9C;
+  color: white;
+}
+
+#about .gb-btn:hover{
+  background-color: white;
+  color: black;
+}
 /* /About  */
 
 
