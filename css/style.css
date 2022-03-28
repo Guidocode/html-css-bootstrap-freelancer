@@ -8,8 +8,62 @@ header{
   left: 0;
   width: 100%;
   z-index: 999;
+  background-color: #2C3D50;
 }
 
+header nav{
+  height: 100%;
+}
+
+header nav .row{
+  height: 100%;
+}
+
+/* .gb-logo-name{
+  text-transform: uppercase;
+  color: white !important; 
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.gb-btn{
+  border: white;
+} */
+
+.gb-logo-name a{
+  text-transform: uppercase;
+  color: white; 
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.gb-logo-name:hover a{
+  color: rgb(121, 171, 245);
+}
+
+header ul{
+  list-style: none;
+  height: 100%;
+}
+
+header ul li a{
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .9rem;
+}
+
+header ul li:hover a{
+  color: rgb(121, 171, 245);
+}
+
+header i{
+  font-size: 1.2rem;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 4px 10px;
+  color: #8D8E8D;
+} 
 
 
 
