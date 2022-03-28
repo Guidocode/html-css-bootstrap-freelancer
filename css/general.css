@@ -12,3 +12,16 @@
 a{
   text-decoration: none;
 }
+
+
+.gb-star{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.gb-line-star{
+  width: 150px;
+  height: 3px;
+  background-color: white;
+  border-radius: 3px;
+}
