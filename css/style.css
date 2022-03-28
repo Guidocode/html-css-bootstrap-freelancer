@@ -244,10 +244,18 @@ main h2{
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
-
 /* /Footer top  */
 
 
 /* Footer bottom  */
+.gb-footer-bottom{
+  background-color: #2C3D50;
+}
+
+.gb-footer-bottom span{
+  color: white;
+  font-size: .7rem;
+}
 /* /Footer bottom  */
