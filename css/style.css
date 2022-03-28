@@ -188,6 +188,29 @@ main h2{
 
 
 /* Contact me  */
+#contact-me .gb-star{
+  color: black;
+}
+#contact-me .gb-line-star{
+  background-color: black;
+}
+
+#contact-me .gb-form{
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #CED4DA;
+  width: 100%;
+}
+
+#contact-me .gb-btn{
+  background-color: #1ABC9C;
+  border: 1px solid #1ABC9C;
+}
+
+#contact-me .gb-btn:hover{
+  background-color: #7F7F7F;
+  border: 1px solid #7F7F7F;
+}
 /* /Contact me  */
 
 
