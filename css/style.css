@@ -73,13 +73,12 @@ header i{
   JUMBOTRON 
 */
 .jumbotron{
-  height: 450px;
   margin-top: 80px;
   background-color: #1ABC9C;
 }
 
 .gb-container-jumbo{
-  width: 500px;
+  /* width: 500px; */
   margin: 0 auto;
 }
 
@@ -89,8 +88,8 @@ header i{
   height: 300px;
 } */
 
-.jumbo-image img{
-  width: 40%;
+.jumbo-image{
+  width: 200px;
 }
 
 .jumbo-top{
@@ -111,6 +110,8 @@ header i{
 
 
 
+
+
 /* 
   MAIN 
 */
@@ -120,17 +121,6 @@ main h2{
 }
 
 /* Portfolio */
-#portfolio .gb-star{
-  color: black;
-}
-#portfolio .gb-line-star{
-  background-color: black;
-}
-
-.gb-card{
-  height: 250px; 
-}
-
 .gb-card img{
   width: 100%;
   border-radius: 20px;
@@ -188,13 +178,6 @@ main h2{
 
 
 /* Contact me  */
-#contact-me .gb-star{
-  color: black;
-}
-#contact-me .gb-line-star{
-  background-color: black;
-}
-
 #contact-me .gb-form{
   padding: 10px 0;
   border: none;
@@ -259,3 +242,8 @@ main h2{
   font-size: .7rem;
 }
 /* /Footer bottom  */
+
+
+
+/* MEDIA  */
+@media screen and (max-width )

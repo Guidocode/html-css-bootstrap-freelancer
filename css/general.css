@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* 
+body{
+  color: #2c3e50;
+} */
 
 .gb-container{
   width: 70%;
@@ -14,14 +18,37 @@ a{
 }
 
 
-.gb-star{
+.gb-star .fa-star{
   color: white;
   font-size: 1.5rem;
+  vertical-align: middle;
+  margin: 30px 1.5%;
 }
 
+.gb-star::before,
+.gb-star::after{
+  content: '';
+  display: inline-block;
+  width: 20%;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+
+.gb-star-dark .fa-star{
+  color: #2c3e50;
+}
+
+.gb-star-dark:before,
+.gb-star-dark::after{
+  background-color: #2c3e50;
+}
+
+/* 
 .gb-line-star{
   width: 150px;
   height: 3px;
   background-color: white;
   border-radius: 3px;
-}
+} */
